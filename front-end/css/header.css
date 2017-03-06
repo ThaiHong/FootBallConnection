@@ -1,0 +1,96 @@
+.header {
+    margin-bottom: 0px!important;
+}
+
+.header-brand{
+    padding-top: 5px;
+}
+
+
+.header-button {
+    display: inline-block;
+    float: right;
+    height: 100%;
+    border-left: 0.5px solid #F0F8FA;
+    border-top: none;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0px 10px 0px 10px;
+}
+
+.header-dropdown-box{
+    padding: 5px 15px 0px 15px!important;
+    height: 100%;
+}
+
+.header-button:hover {
+    background-color: #F5F5F5;
+}
+
+.header-button-corner {
+}
+
+.header-final-button {
+    border-right: 1px solid #F0F8FA;
+}
+
+.header-profile {
+    /*background-color: #87D3B7;*/
+}
+
+.kep-login-facebook.metro {
+    width: 100%;
+}
+
+.user-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 9px;
+
+}
+
+.menu-item {
+    display: inline-block;
+}
+
+.profile-menu {
+    min-width: 182px;
+    margin-top: 15px;
+    border-radius: 0px;
+}
+
+.profile-menu-item {
+    height: 100%;
+
+}
+
+.profile-menu-icon-div {
+    text-align: right;
+}
+
+.profile-menu-icon {
+    margin-top: 3px;
+}
+
+.upcoming-events {
+    background-color: white;
+}
+
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.header-avatar-padding{
+    padding-top: 5px;
+}
+
+.header-name-padding{
+    padding-top: 10px;
+}

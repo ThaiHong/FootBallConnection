@@ -1,0 +1,82 @@
+.profile-body {
+    padding-bottom: 50px;
+    padding-top: 50px;
+    min-height: 1000px;
+}
+.color{
+    color: red;
+}
+
+.error-change-password{
+    padding-left: 1px;
+    color: red;
+}
+.button-reminder{
+    float:left;
+
+}
+.button-save-profile{
+    padding-right: 90px;
+}
+
+.logo-img{
+    width: 250px;
+    height: 90px;
+}
+.icon-error{
+    width: 100px;
+}
+.dp-error {
+    border: 2px solid #eee;
+    transition: all 0.2s ease-in-out;
+
+    padding: 9px;
+}
+.btn-error-something{
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+.font-size-title{
+    font-size: 15px;
+}
+.btn-size-error{
+    min-height: 10px;
+    min-width: 200px;
+}
+.btn-size-save{
+    min-height: 20px;
+    min-width: 150px;
+}
+.form-error {
+    min-height: 418px;
+}
+
+div.circle-avatar-profile {
+    /* make it responsive */
+
+    min-width: 100px;
+    min-height: 100px;
+    display: block;
+    /* div height to be the same as width*/
+    /*padding-top: 100%;*/
+
+    /* make it a cirkle */
+    border-radius: 50%;
+
+    /* Centering on image`s center*/
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    /* it makes the clue thing, takes smaller dimention to fill div */
+    background-size: cover;
+
+    /* it is optional, for making this div centered in parent*/
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 200px;
+    height: 200px;
+}

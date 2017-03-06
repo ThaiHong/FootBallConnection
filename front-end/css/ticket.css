@@ -1,0 +1,206 @@
+.ticket-body {
+    background-color: #f1f1f1;
+    padding-bottom: 50px;
+    padding-top: 50px;
+    min-height: 1000px;
+}
+
+.ticket-body .ticket-body-content {
+    background-color: #ffffff;
+    margin-bottom: 50px;
+    border: 1px solid #d7d7d7;
+}
+
+.ticket-body .ticket-body-title {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.ticket-body-title .ticket-title {
+    margin: 0;
+    border-bottom: 1px solid #f1f1f1;
+    font-weight: bold;
+    font-size: 18px;
+    padding-bottom: 5px;
+    color: #2196F3;
+}
+
+.ticket-btn-see-more {
+    text-align: center;
+    margin-bottom: 20px;
+    margin-top: 50px;
+}
+
+.text-align-reminder {
+    text-align: left;
+}
+
+.ticket-text-align-center {
+    text-align: center;
+}
+
+.ticket-item {
+    padding-left: 0;
+}
+
+.ticket-no-padding-left {
+    padding-left: 0;
+}
+
+.ticket-item-banner {
+    width: 100%;
+    /*height: 200px;*/
+}
+
+.ticket-item-btn-collapse {
+    border-radius: 0;
+    width: 100%;
+    background-color: #f1f1f1;
+}
+
+.ticket-item-panel {
+    width: 100%;
+    border: none;
+    margin-bottom: 0;
+}
+
+.ticket-item-padding-15 {
+    padding: 15px;
+}
+
+.ticket-item-padding-5 {
+    padding: 5px;
+}
+
+.switch-float-r {
+    float: right;
+}
+
+.switch-float-l {
+    float: left;
+}
+
+.ticket-item-content {
+    border: 1px solid #f1f1f1;
+}
+
+.ticket-no-padding {
+    padding: 0;
+}
+
+.ticket-item-icon-fa {
+    font-size: 25px;
+}
+
+.ticket-item-panel-qr-no-border {
+    border-radius: 0;
+}
+
+.ticket-item-image {
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0;
+}
+
+.ticket-item-panel-qr .panel {
+    width: 100%;
+    height: 100%;
+    border: 0;
+    margin-bottom: 0;
+    text-align: center;
+    border-radius: 0;
+    padding: 0;
+}
+
+.ticket-item-info {
+    padding-bottom: 20px;
+    text-align: left;
+    color: #424242;
+}
+
+.btn-download-pdf {
+    padding: 9px 18px;
+    background-color: transparent;
+    border: 0.5px solid #DA251C;
+    color: #DA251C;
+    font-size: small;
+}
+
+.btn-download-png {
+    background-color: transparent;
+    padding: 9px 18px;
+    margin-left: 5px;
+    border: 0.5px solid #3e8f3e;
+    color: #3e8f3e;
+    font-size: small;
+}
+
+.btn-download-pdf:hover {
+    background-color: #DA251C;
+    color: white;
+}
+
+.btn-download-png:hover {
+    background-color: #3e8f3e;
+    color: white;
+}
+
+@media only screen and (max-width: 500px) {
+    .btn-download-pdf {
+        padding: 9px 18px;
+        background-color: transparent;
+        min-width: 127px;
+        border: 0.5px solid #adadad;
+        color: #949494;
+        font-size: small;
+    }
+
+    .btn-download-png {
+        background-color: transparent;
+        padding: 9px 18px;
+        min-width: 127px;
+        margin-top: 5px;
+        margin-left: 0px;
+        border: 0.5px solid #adadad;
+        color: #949494;
+        font-size: small;
+    }
+
+    .ticket-item-image {
+        width: 100%;
+        margin-top: 0;
+        margin-bottom: 5px;
+        padding: 0;
+    }
+
+}
+
+.width-ava{
+    min-width: 140px;
+}
+.width-switch{
+    min-width: 50px;
+}
+.min-width-form-pf{
+    min-width: 350px;
+}
+
+.text-align-center {
+    text-align: center;
+}
+.width-switch-div-center{
+    max-width: 145px;
+    margin: 0 auto;
+}
+.open-close-event-title{
+    padding-left: 30px;
+    padding-bottom: 5px;
+}
+
+.padding-btn-chgpass{
+    padding: 20px 20px 20px 20px;
+}
+.nowrap{
+    white-space: nowrap;
+}

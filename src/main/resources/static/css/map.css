@@ -1,0 +1,11 @@
+.map-title {
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 5px 10px 15px 0;
+    margin: 0;
+}
+
+.btn-dropdown-ticket:active{
+    box-shadow: none !important;
+}

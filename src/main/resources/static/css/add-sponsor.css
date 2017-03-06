@@ -1,0 +1,74 @@
+.sponsor{
+    border: 1px solid #DFDFDF;
+    margin: 5px 40px;
+}
+
+.sponsor-item{
+    height: 100%;
+}
+
+.sponsor-line{
+    height: 50px;
+}
+
+.sponsor-info{
+    border-left: 1px solid #DFDFDF;
+    background-color: #F6F6F6;
+    color: #909090;
+}
+
+.sponsor-delete-button{
+    text-align: center;
+    background-color: #FFB400;
+}
+
+.sponsor-delete-button:hover{
+    background-color: #FFD672;
+}
+
+.sponsor-avatar{
+    /* make it responsive */
+    /* div height to be the same as width*/
+    padding-top:100%;
+
+    /* make it a cirkle */
+    border-radius:50%;
+
+    /* Centering on image`s center*/
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    /* it makes the clue thing, takes smaller dimention to fill div */
+    background-size: cover;
+
+    /* it is optional, for making this div centered in parent*/
+    margin-right: 0px !important;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.sponsor-name-error{
+    color: red;
+    margin-bottom: 15px;
+}
+.min-width-form-sponsor{
+    min-width: 300px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sponsor-avatar-crop{
+    width: 100%;
+    /*text-align: center;*/
+}
+
+.sponsor-avatar-button{
+    margin-bottom: 15px;
+}
+
+.align-right{
+    text-align: right;
+}

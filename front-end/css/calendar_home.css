@@ -1,0 +1,21 @@
+.calendar-month {
+    padding: 2px 2px 3px 2px;
+    background-color: #0096d6;
+    height: 100%;
+    text-align: center;
+    font-size: 12px;
+    font-weight: bold;
+    border: 0.5px solid #0096d6;
+    min-width: 70px;
+    color: #fff !important;
+}
+
+.calendar-date {
+    border-top: none;
+    border-right: 0.5px solid rgb(162, 162, 162);
+    border-bottom: 0.5px solid rgb(162, 162, 162);
+    border-left: 0.5px solid rgb(162, 162, 162);
+    border-image: initial;
+    min-width: 70px;
+}
+

@@ -1,0 +1,275 @@
+ .my-event {
+    background-color: #f1f1f1;
+    min-height: 1000px;
+    padding: 0;
+    margin: 0;
+}
+
+.my-event-body {
+    background-color: #FFFFFF;
+    padding: 0;
+    border: 1px solid #cccccc;
+}
+
+.my-event-content {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.my-event-tabs {
+    background-color: #FFFFFF;
+}
+
+.my-event-item {
+    min-height: 250px;
+    border: 1px solid #f1f1f1;
+    margin-right: 30px;
+    margin-bottom: 30px;
+}
+
+.my-event-item-image {
+    width: 100% !important;
+    /*height: 250px;*/
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.my-event-item-body {
+    padding: 0;
+    margin-bottom: 20px;
+}
+
+.my-event-item-name {
+    font-size: 17px;
+    line-height: 1em;
+    font-weight: bold;
+    margin: 15px 0 10px 0;
+    display: block;
+}
+
+.my-event-item-content {
+    padding: 0 0 0 10px;
+    min-height: 180px;
+}
+
+.my-event-item-time {
+    margin-bottom: 3px;
+}
+
+.my-event-item-address {
+    margin-bottom: 3px;
+}
+
+.my-event-item-location {
+    font-size: 13px;
+    margin-bottom: 0;
+}
+
+.my-event-item-btn-edit {
+    background-color: #0096D6;
+    border: 0;
+    border-radius: 0;
+    width: 100%;
+    color: #ffffff;
+    padding: 8px 0;
+}
+
+.my-event-item-btn-edit:hover {
+    color: #cad2d7;
+}
+
+.no-shadow:active {
+    box-shadow: none !important;
+}
+
+.my-event-fa {
+    font-size: 20px;
+}
+
+.my-event-switch {
+    position: relative;
+    display: inline-block;
+    width: 52px;
+    height: 22px;
+    min-width: 52px;
+    text-align: left;
+}
+
+.my-event-switch input {
+    display: none;
+}
+
+.my-event-slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.my-event-slider:before {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    left: 6px;
+    bottom: 3px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked + .my-event-slider {
+    background-color: #2196F3;
+}
+
+input:focus + .my-event-slider {
+    box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .my-event-slider:before {
+    -webkit-transform: translateX(24px);
+    -ms-transform: translateX(24px);
+    transform: translateX(24px);
+}
+
+/* Rounded sliders */
+.my-event-slider.round {
+    border-radius: 20px;
+}
+
+.my-event-slider.round:before {
+    border-radius: 50%;
+}
+
+.my-event-panel-action {
+    margin-top: 15px;
+    padding: 0 0 0 5px;
+}
+
+.no-padding-right {
+    padding-right: 0;
+}
+
+.my-event-btn-action {
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-event-preview {
+    display: block;
+    border: none;
+    height: 80vh;
+    width: 100%;
+}
+
+.my-event-dialog {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 75% !important;
+    height: 100% !important;
+}
+
+.not-found {
+    padding: 20px;
+    min-height: 80vh;
+}
+
+.my-event-dialog-title {
+    font-size: 20px !important;
+    text-align: center;
+    color: #9ca2b2 !important;
+    font-weight: normal !important;
+}
+
+.my-event-dialog-body {
+    font-size: 16px;
+    color: #9ca2b2;
+    text-align: center;
+    padding-top: 15px;
+
+}
+ .my-event-dialog-bd {
+     font-size: 16px;
+     color: #9ca2b2;
+     text-align: center;
+
+ }
+
+.my-event-dialog-btn-yes {
+    width: 100px !important;
+    background-color: #2196F3;
+    color: white;
+    border: none;
+    border: 2px solid #2196F3 !important;
+}
+
+.my-event-dialog-btn-yes:hover {
+    color: #cad2d7;
+}
+
+.my-event-dialog-btn-no {
+    width: 100px !important;
+    background-color: white;
+    color: #9ca2b2;
+    border: 2px solid #9ca2b2 !important;
+}
+
+.my-event-dialog-btn-no:hover {
+    color: #cad2d7;
+}
+
+.my-event-dialog-content {
+    width: 500px;
+    height: 180px;
+    border-radius: 0px;
+}
+ .my-event-dialog-content1 {
+     width: 500px;
+     height: 200px;
+     border-radius: 0px;
+ }
+.my-event-dialog-header {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my-event-dialog-footer {
+    border-top: none !important;
+    padding-top: 20px !important;
+    text-align: center;
+
+}
+ .my-event-dialog-ft {
+     border-top: none !important;
+     text-align: center;
+     border: 0px;
+     padding: 0px;
+
+
+ }
+ .my-event-dialog-footer1 {
+     border-top: none !important;
+     padding-top: 5px !important;
+     text-align: center;
+     border-radius: 0px;
+
+
+ }
+
+
+
+.my-event-check-in {
+    padding: 5px 0 5px 0;
+    text-align: left;
+}
+
+.group-label-checkbox {
+    text-align: center;
+    padding-top: 10px;
+}

@@ -1,0 +1,422 @@
+.left-side-menu {
+    min-height: 100%;
+    height: 720px;
+}
+.min-width-menu{
+
+    min-width: 450px;
+}
+aside header p {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 2px;
+    text-align: center;
+}
+
+.status-font-style{
+    display: block;
+    padding: 10px 15px;
+    border-left: 4px solid white;
+    text-align: left;
+    color: #a5a5a5;
+}
+.side-navigation {
+    font-size: 13px;
+}
+
+.side-navigation a {
+    display: block;
+    padding: 10px 15px;
+    text-decoration: none;
+    border-left: 4px solid white;
+    color: #a5a5a5;
+}
+
+.side-navigation i.fa {
+    font-size: 13px;
+    color: black;
+    padding-left: 10px;
+    padding-right: 15px;
+    font-weight: bold;
+}
+.side-navigation li:hover a {
+    border-left: 4px solid #00AFEF;
+    background: rgba(255, 255, 255, 0);
+}
+
+.side-navigation li.active a {
+    border-left: 4px solid #00AFEF;
+    background: #eefaff;
+}
+
+.side-navigation li {
+    border-top: 1px solid #ddd9d9;
+    text-align: left;
+}
+
+.status-font{
+    font-size: small;
+    font-style: italic;
+    color: #919191;
+}
+
+.no-padding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.no-padding-side {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.remind-title-border{
+    border-bottom: 1px solid #ddd9d9;
+}
+
+.no-min-height {
+    min-height: 0px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.title-left-menu {
+    font-size: 14px;
+    color: black;
+    font-weight: bold;
+    padding: 10px 0px 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd9d9;
+    border-left: 1px solid #ddd9d9;
+    margin-bottom: 0px;
+}
+
+.title-right-panel {
+    font-weight: bold;
+    padding: 4px 10px 4px 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd9d9;
+    margin-bottom: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.background-event-manage {
+    background-color: #f6f7f9;
+    min-height: 1080px;
+    border-left: 1px solid #ddd9d9;
+
+}
+
+.margin-top-10 {
+    margin-top: 10px;
+}
+.margin-top-15 {
+    margin-top: 15px;
+}
+.margin-top-4 {
+    margin-top: 4px;
+}
+
+.title-index {
+    padding: 7px 7px;
+    /*border-bottom: 1px solid #ddd9d9;*/
+    font-weight: bold;
+    font-size: 16px;
+}
+.panel-min-width{
+    min-width: 400px;
+}
+.inline-date{
+    display:inline-block;
+    white-space: nowrap;
+    overflow:hidden !important;
+    text-overflow: ellipsis;
+}
+.title-index-bar {
+    padding: 7px 7px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.padding-add-btn{
+    padding: 10px 10px 10px 10px;
+}
+
+.shadow-panel{
+    box-shadow: 0.5px 0.5px 3px #9e9e9e;
+}
+
+.boder-top-panel{
+    border-top: 1px solid #ddd9d9;
+ }
+
+.background-white {
+    background-color: #ffffff;
+}
+
+.background-gray {
+    background-color: #f6f7f9;
+    border: 1px solid #cccccc;
+}
+
+.time-date {
+    float: left;
+}
+
+.background-event-index {
+    border-bottom: 4px solid #00AFEF;;
+    background-color: #00afef;
+    text-align: center;
+}
+
+.form-speaker {
+    background-color: white;
+}
+
+/*css for avatar*/
+
+div.circle-avatar {
+    /* make it responsive */
+
+    min-width: 100px;
+    min-height: 100px;
+    display: block;
+    /* div height to be the same as width*/
+    padding-top: 100%;
+
+    /* make it a cirkle */
+    border-radius: 50%;
+
+    /* Centering on image`s center*/
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    /* it makes the clue thing, takes smaller dimention to fill div */
+    background-size: cover;
+
+    /* it is optional, for making this div centered in parent*/
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+.size-box-200 {
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    text-align: center;
+}
+
+.change-password-link{
+    margin-top: 10px;
+}
+
+.circle-avatar-profie {
+    min-width: 100px;
+    float: right;
+}
+
+.border-test {
+    border: 1px solid black;
+}
+
+.padding-top-10 {
+    padding-top: 15px;
+}
+
+.padding-top-50 {
+    padding-top: 50px;
+}
+
+.padding-top-9 {
+    padding-top: 9px;
+}
+
+.padding-top-20 {
+    margin-top: 10px;
+    margin-bottom: 10px !important;
+    padding: 0 !important;
+}
+
+.padding-left-5 {
+    padding-left: 5px;
+}
+
+.padding-right-5 {
+    padding-right: 5px;
+}
+
+.padding-bottom-10{
+    padding-bottom: 10px;
+}
+
+.padding-bottom-30{
+    padding-bottom: 30px;
+}
+.padding-top-30{
+    padding-top: 30px;
+}
+
+.padding-time-date-frame {
+    padding: 8px 15px 0px 0px;
+}
+
+.hidden {
+    display: none;
+}
+
+.button-speaker {
+    color: white;
+    background-color: #0091cf;
+    margin-left: 10px;
+    padding: 7px 20px;
+    border-radius: 2px;
+}
+
+.button-save-reset{
+    padding-right: 10px;
+}
+
+.button-speaker:hover {
+    background-color: #0083bb;
+    color: white;
+    /*//padding: 10px 24px;*/
+}
+
+.row-no-padding > [class*="col-"] {
+    padding-left: 0 !important;
+    padding-right: 0 !important;
+}
+
+.btn-continue {
+    margin-left: 0px;
+    margin-right: 6px;
+    background-color: #0096d6;
+}
+
+.title-text-field {
+    float: right;
+    font-weight: bold;
+    padding-bottom: 25px;
+    color: #a5a5a5;
+    margin-bottom: 0 !important;
+}
+
+.title-text-field-pass {
+    float: left;
+    font-weight: bold;
+    padding: 10px 0px 8px 0px;
+    color: #a5a5a5;
+    margin-bottom: 0 !important;
+}
+
+.title-text-field-profile {
+    float: right;
+    font-weight: bold;
+    padding: 10px 0px 20px 0px;
+    color: #a5a5a5;
+    margin-bottom: 0 !important;
+}
+.title-text-field-switch {
+    float: right;
+    font-weight: bold;
+    padding: 10px 0px 20px 0px;
+    color: #a5a5a5;
+    margin-bottom: 0 !important;
+}
+
+.title-text-field-speaker {
+    float: right;
+    font-weight: bold;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    color: #a5a5a5;
+    margin-bottom: 0 !important;
+}
+
+.title-text-field-dob {
+    padding-top: 25px;
+    float: right;
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: #a5a5a5;
+    margin-bottom: 0 !important;
+
+}
+
+.title-text-field-tel {
+    float: right;
+    margin: 0 !important;
+    padding: 10px 5px 23px 0px;
+    font-weight: bold;
+    color: #a5a5a5;
+}
+
+.btn-padding {
+    padding-top: 22px;
+}
+
+.padding-pp {
+    float: right;
+    font-weight: bold;
+    padding-top: 8px;
+    color: #a5a5a5;
+    margin-bottom: 0 !important;
+    padding-bottom: 92px;
+}
+
+.title-time-date {
+    padding: 7px 0px 13px 0px;
+    font-weight: bold;
+    float: right;
+    margin: 0 !important;
+    font-size: 12px;
+}
+
+.form-schedule {
+    width: 300%;
+
+}
+
+.add-more,
+.add-more:hover {
+    text-decoration: none;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+.edit-button {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.error-message {
+    font-size: 12px;
+    color: red;
+}
+
+.background-error {
+    background-color: #ffe8e8;
+    -webkit-box-shadow: inset 0px 0px 9px -1px rgba(255,133,133,1);
+    -moz-box-shadow: inset 0px 0px 9px -1px rgba(255,133,133,1);
+    box-shadow: inset 0px 0px 9px -1px rgba(255,133,133,1);
+}
+
+.remind-form {
+    background-color: white;
+    margin-top: 20px;
+}

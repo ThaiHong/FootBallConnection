@@ -1,0 +1,6 @@
+.idea/
+target/
+a_events_webservice.iml
+front-end/node_modules
+npm-debug.log
+src/main/resources/local.properties

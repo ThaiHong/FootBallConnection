@@ -1,0 +1,160 @@
+@import "https://fonts.googleapis.com/css?family=Montserrat";
+
+.profile-image {
+    height: 43px;
+    border-radius: 50%;
+    margin-right: 0px;
+    margin-left: 5px;
+}
+
+.dp {
+    border: 5px solid #eee;
+    transition: all 0.2s ease-in-out;
+}
+
+.user-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.user-name {
+    margin-right: 9px;
+
+}
+
+#bodydrop {
+    background: #f5fffc;
+    font-size: 15px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif
+
+}
+
+#bodyuserdrop {
+    background: #f5fffc;
+    font-size: 15px;
+    font-weight: bold;
+    color: #4d9de2;
+    font-family: 'Montserrat', sans-serif
+
+}
+
+.menudrop {
+    width: 220px;
+}
+
+.titledrop {
+    width: 100%;
+    box-sizing: border-box;
+    background: #fff;
+    padding: 14px;
+    border-radius: 4px;
+    position: relative;
+    box-shadow: 0 0 40px -10px #000;
+    color: #505050
+}
+
+#spandrop {
+    float: left;
+    font-size: 18px !important;
+    margin-right: 25px;
+}
+
+#spandrop2 {
+    float: right;
+    font-size: 20px !important;
+    margin-right: 10px;
+    margin-top: 13px;
+    color: #4d9de2;
+
+}
+
+.dropdownuser {
+    width: 100%;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 0 40px -10px #000;
+    color: #0d5044;
+    margin-top: 24px;
+    max-height: 0;
+    overflow: hidden;
+    transition: all .5s
+}
+
+.down2 {
+    max-height: 210px
+}
+
+.arrow {
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #fff;
+    position: absolute;
+    right: 20px;
+    bottom: -24px;
+    display: none
+}
+
+.arrow.gone {
+    display: block
+}
+
+.dropp {
+    padding: 5px 14px;
+    margin: 0;
+    transition: all .1s;
+    height: 30px;
+}
+
+#c:hover {
+    background: #4ae28e;
+    -webkit-transform: scale(1.00);
+    color: rgba(255, 255, 255, 0.8);
+    box-shadow: 0 0 30px -10px #777777
+}
+
+.usercorner-divider{
+    margin: 0px 0px !important;
+}
+
+.usercorner-dropdown-menu{
+    padding: 0px 0px !important;
+}
+.header-brand{
+    height: 40px;
+    display: inline-block;
+}
+
+.header-search{
+    margin-top: 15px;
+}
+
+.circle-avatar-user-corner{
+    /* make it responsive */
+
+    display: block;
+    /* div height to be the same as width*/
+    /*padding-top: 100%;*/
+
+    /* make it a cirkle */
+    border-radius: 50%;
+
+    /* Centering on image`s center*/
+    background-position-y: center;
+    background-position-x: center;
+    background-repeat: no-repeat;
+
+    /* it makes the clue thing, takes smaller dimention to fill div */
+    background-size: cover;
+
+    /* it is optional, for making this div centered in parent*/
+    margin: 0 auto;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    width: 40px;
+    height: 40px;
+    margin-left: 10px;
+}
